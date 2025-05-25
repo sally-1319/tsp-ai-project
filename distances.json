@@ -1,0 +1,46 @@
+{
+  "distances": {
+    "Nairobi": {
+      "Meru": 225,
+      "Nyeri": 150,
+      "Nakuru": 160,
+      "Nandi": 305,
+      "Kericho": 260
+    },
+    "Meru": {
+      "Nairobi": 225,
+      "Nyeri": 90,
+      "Nakuru": 260,
+      "Nandi": 385,
+      "Kericho": 340
+    },
+    "Nyeri": {
+      "Nairobi": 150,
+      "Meru": 90,
+      "Nakuru": 150,
+      "Nandi": 280,
+      "Kericho": 250
+    },
+    "Nakuru": {
+      "Nairobi": 160,
+      "Meru": 260,
+      "Nyeri": 150,
+      "Nandi": 150,
+      "Kericho": 85
+    },
+    "Nandi": {
+      "Nairobi": 305,
+      "Meru": 385,
+      "Nyeri": 280,
+      "Nakuru": 150,
+      "Kericho": 110
+    },
+    "Kericho": {
+      "Nairobi": 260,
+      "Meru": 340,
+      "Nyeri": 250,
+      "Nakuru": 85,
+      "Nandi": 110
+    }
+  }
+}
