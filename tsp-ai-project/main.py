@@ -4,6 +4,7 @@ from data.locations import get_distance_matrix, city_list
 from project.TSP import solve_tsp_with_ortools
 from visualizations.map_plot import visualize_route
 
+
 def main():
     print("🚀 Starting TSP Route Optimization...")
 
