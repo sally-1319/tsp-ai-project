@@ -18,7 +18,7 @@ def solve_tsp_with_ortools(distance_matrix):
 
     solution = routing.SolveWithParameters(search_params)
     if solution is None:
-        raise Exception("❌ OR-Tools failed to find a solution.")
+        raise Exception("❌ OR-Tools failed to find a solution")
 
     route = []
     index = routing.Start(0)
