@@ -6,7 +6,7 @@ from visualizations.map_plot import visualize_route
 
 
 def main():
-    print("🚀 Starting TSP Route Optimization...")
+    print("🚀 Starting TSP Route Optimization......")
 
     # Get distance matrix from your locations data
     distance_matrix = get_distance_matrix()
