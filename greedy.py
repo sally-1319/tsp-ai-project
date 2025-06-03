@@ -12,7 +12,7 @@ def greedy_tsp(distances, start_city):
         unvisited.remove(next_city)
         current_city = next_city
 
-    # Return to start
+    # Return to start 
     tour.append(start_city)
     return tour
 
