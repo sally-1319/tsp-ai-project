@@ -8,7 +8,7 @@ from data.locations import city_list, locations, get_distance_matrix
 def visualize_route(route):
     m = folium.Map(location=[-0.1, 37.0], zoom_start=7)
 
-    # Mark all cities
+    # Mark all cities on map
     for city in city_list:
         lat, lon = map(float, locations[city].split(','))
         folium.Marker([lat, lon], popup=city, icon=folium.Icon(color='green')).add_to(m)
